@@ -1,5 +1,5 @@
 FROM openjdk:17
-COPY target/Spring02-0.0.1-SNAPSHOT.jar app.har
+COPY target/Spring02-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
 
 # FROM openjdk:17
